@@ -12,7 +12,7 @@ namespace WSUniversalLib
         public int GetQuantityForProduct(float width, float length, int count, int productType, int materialType)
         {
             double calcul=-1;
-            if(width!=0 && length!=0 && count != 0)
+            if(width>0 && length>0 && count > 0)
             {
                 if (productType == 1)
                 {
